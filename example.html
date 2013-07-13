@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Faceslide</title>
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/lightbox.js"></script>
+
+
+
+
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.0/pure-min.css">
+<link rel="stylesheet" href="css/example.css">
+<link rel="stylesheet" href="css/lightbox.css" media="screen"/>
+
+
+
+    
+<script src="http://use.typekit.net/ajf8ggy.js"></script>
+<script>
+    try { Typekit.load(); } catch (e) {}
+</script>
+
+
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-41480445-1', 'purecss.io');
+ga('send', 'pageview');
+</script>
+
+
+</head>
+<body>
+
+
+
+
+<div class="content pure-g-r">
+
+    <div class="content pure-u-1">
+        <div class="pure-g-r">
+			
+			<div class="pure-u-1 form-box">
+                <div class="l-box">
+					
+					<div style="padding-top: 20px; padding-bottom: 20px">
+						<div class="logo">
+							<a>
+								<img src="images/logo.png">
+							</a>
+						</div>
+					</div>
+
+                    <form class="pure-form">
+							<style scoped>
+							
+								#txtSearch {
+									border-radius: 0px;
+									width: 250px;
+								}
+
+							</style>
+							
+							<input id="txtSearch" type="text" class="pure-input pure-input-round" placeholder="Search photos..." required>
+							<button type="submit" class="pure-button">Search</button>
+                    </form>
+                </div>
+            </div>
+
+
+            
+			
+			<div class="image-row">
+				<div class="image-set">
+					<div class="pure-u-1-4 photo-box">
+						<a href="http://farm3.staticflickr.com/2785/4015614533_3e04ac2c7d.jpg" class="anchorThumbBlock" rel="lightbox[general]">
+						<img src="http://farm3.staticflickr.com/2785/4015614533_3e04ac2c7d.jpg" alt="Thumbnails"></a>
+						
+					</div>
+					<div class="pure-u-1-4 photo-box">
+						<a href="http://farm7.staticflickr.com/6151/6159637428_6bffb5bce1.jpg" class="anchorThumbBlock" rel="lightbox[general]">
+						<img src="http://farm7.staticflickr.com/6151/6159637428_6bffb5bce1.jpg" alt="Thumbnails"></a>
+						
+					</div>
+					<div class="pure-u-1-4 photo-box">
+						<a href="http://farm7.staticflickr.com/6171/6167391543_395a7cabfd.jpg" class="anchorThumbBlock" rel="lightbox[general]">
+						<img src="http://farm7.staticflickr.com/6171/6167391543_395a7cabfd.jpg" alt="Thumbnails"></a>
+						
+					</div>
+					<div class="pure-u-1-4 photo-box">
+						<a href="http://farm3.staticflickr.com/2109/2120309884_de48fdb9fe.jpg" class="anchorThumbBlock" rel="lightbox[general]">
+						<img src="http://farm3.staticflickr.com/2109/2120309884_de48fdb9fe.jpg" alt="Thumbnails"></a>
+						
+					</div>
+					<div class="pure-u-1-4 photo-box">
+						<a href="http://farm3.staticflickr.com/2388/2086852016_5a58dd1881.jpg" class="anchorThumbBlock" rel="lightbox[general]">
+						<img src="http://farm3.staticflickr.com/2388/2086852016_5a58dd1881.jpg" alt="Thumbnails"></a>
+						
+					</div>
+				</div>
+			</div>
+
+
+            
+        </div>
+    </div>
+
+    <div class="footer pure-u-1">
+        Made with love by the Red hot techi pepper Team.
+    </div>
+</div>
+
+<script src="http://yui.yahooapis.com/3.10.1/build/yui/yui-min.js"></script>
+<script>
+YUI().use('node-base', 'node-event-delegate', function (Y) {
+    // This just makes sure that the href="#" attached to the <a> elements
+    // don't scroll you back up the page.
+    Y.one('.content').delegate('click', function (e) {
+        e.preventDefault();
+    }, 'a[href="#"]');
+});
+</script>
+
+
+
+</body>
+</html>
